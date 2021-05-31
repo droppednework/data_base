@@ -1,0 +1,134 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - Привет
+    - Здравствуйте
+    - Здарова
+    - Добрый день
+    - Добрый вечер
+    - Хай
+    - Добрейший вечерочек
+    - Доброго времени суток
+    - Приветик
+    - Сала малекум
+    - Исямисис
+    - Прив
+    - Здаров
+    - День добрый
+    - Вечер добрый
+    - Хэй
+    - Йо
+    - Йоу
+    - Здравствуй
+    - Приветствую вас
+    - Я вас категоричски приветсвую
+    - Моё почтение
+    - Здорово
+    - Хаюшки
+    - Привки
+    - Превет
+    - Салам
+    - Прывет
+    - Охаё
+    - Алоха
+    - Шалом
+
+- intent: goodbye
+  examples: |
+    - До свидание 
+    - Пока
+    - Прощай
+    - Хорошего вам дня
+    - Пока пока
+    - До встречи
+    - Всего хорошего
+    - Прощайте
+    - До скорого
+    - До встречи
+    - Разрешити откланиться
+    - Приятного вам дня
+    - Сэр
+    - Счастливо
+    - Доброй ночи
+    - Давай
+    - Давай пока
+    - Давай до свидания
+    - Бай
+    - Бай-Бай
+    - Оревуар
+    - Сир
+    - Милорд
+    - Ну, давай
+    - Бывай
+    - Ну, бывай
+    - Покеда
+    - Прощавай
+    - Досвидания
+    - Покедуси
+    - Прощавай
+
+- intent: affirm
+  examples: |
+    - Да
+    - Ага
+    - Окей
+    - Понял
+    - Всё, спасибо
+    - Так точно
+    - Хорошо
+    - Да, спасибо
+    - Да, помогло
+
+- intent: deny
+  examples: |
+    - Нет
+    - Не
+    - Не помогло
+    - Непомогло
+    - Не работает
+    - Это не помогло
+    - Все еще не работает
+    - Нет эффекта
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
